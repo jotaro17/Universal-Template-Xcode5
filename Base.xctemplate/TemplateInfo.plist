@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Definitions</key>
+	<dict>
+		<key>Supporting Files/</key>
+		<dict>
+			<key>Path</key>
+			<string>Supporting Files</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Supporting Files/Prefix.pch</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Beginning</key>
+			<string>//
+// Prefix header for all source files in the &apos;___PACKAGENAME___&apos; project
+//
+</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+	</dict>
+	<key>Identifier</key>
+	<string>com.jotaro17.base</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>Supporting Files/</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Project Name</string>
+			<key>Description</key>
+			<string>The project&apos;s name.</string>
+			<key>EmptyReplacement</key>
+			<string>ProjectName</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>SharedSettings</key>
+		<dict>
+			<key>GCC_C_LANGUAGE_STANDARD</key>
+			<string>gnu99</string>
+			<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+			<string>gnu++0x</string>
+			<key>CLANG_CXX_LIBRARY</key>
+			<string>libc++</string>
+			<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+			<string>YES_ERROR</string>
+			<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+			<string>YES</string>
+			<key>GCC_WARN_UNUSED_VARIABLE</key>
+			<string>YES</string>
+			<key>GCC_WARN_UNUSED_FUNCTION</key>
+			<string>YES</string>
+			<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+			<string>YES</string>
+			<key>GCC_WARN_ABOUT_MISSING_PROTOTYPES</key>
+			<string>YES</string>
+			<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+			<string>YES</string>
+			<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+			<string>YES</string>
+			<key>CLANG_WARN_EMPTY_BODY</key>
+			<string>YES</string>
+			<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+			<string>YES</string>
+			<key>CLANG_WARN_INT_CONVERSION</key>
+			<string>YES</string>
+			<key>CLANG_WARN_BOOL_CONVERSION</key>
+			<string>YES</string>
+			<key>CLANG_WARN_ENUM_CONVERSION</key>
+			<string>YES</string>
+			<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+			<string>YES_ERROR</string>
+			<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+			<string>YES_ERROR</string>
+			<key>CLANG_ENABLE_OBJC_ARC</key>
+			<string>YES</string>
+			<key>CLANG_ENABLE_MODULES</key>
+			<string>YES</string>
+			<key>ALWAYS_SEARCH_USER_PATHS</key>
+			<string>NO</string>
+			<key>GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS</key>
+			<string>YES</string>
+			<key>GCC_WARN_ABOUT_MISSING_NEWLINE</key>
+			<string>YES</string>
+			<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+			<string>YES</string>
+			<key>GCC_WARN_CHECK_SWITCH_STATEMENTS</key>
+			<string>YES</string>
+			<key>GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED</key>
+			<string>YES</string>
+			<key>GCC_WARN_MISSING_PARENTHESES</key>
+			<string>YES</string>
+			<key>GCC_WARN_SHADOW</key>
+			<string>YES</string>
+			<key>GCC_WARN_SIGN_COMPARE</key>
+			<string>YES</string>
+			<key>GCC_WARN_TYPECHECK_CALLS_TO_PRINTF</key>
+			<string>YES</string>
+			<key>GCC_WARN_UNUSED_LABEL</key>
+			<string>YES</string>
+			<key>GCC_WARN_UNUSED_VALUE</key>
+			<string>YES</string>
+			<key>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</key>
+			<string>YES</string>	
+			<key>CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF</key>
+			<string>YES</string>	
+			<key>RUN_CLANG_STATIC_ANALYZER</key>
+			<string>YES</string>
+		</dict>
+		<key>Configurations</key>
+		<dict>
+			<key>Debug</key>
+			<dict>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<string>DEBUG</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+			</dict>
+			<key>Ad Hoc</key>
+			<dict>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
+				<key>GCC_TREAT_WARNINGS_AS_ERRORS</key>
+				<string>YES</string>
+			</dict>
+			<key>App Store</key>
+			<dict>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_TREAT_WARNINGS_AS_ERRORS</key>
+				<string>YES</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>___PACKAGENAME___</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>___PACKAGENAME___/Supporting Files/Prefix.pch</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

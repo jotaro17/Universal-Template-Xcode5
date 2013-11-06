@@ -1,0 +1,7 @@
+platform :ios,              '7.0'
+pod 'CocoaLumberjack',      '1.6.2'
+pod 'TestFlightSDK',        '2.1.1-beta'
+pod 'TestFlightLogger',     '0.0.3'
+pod 'TestFlightFeedback',   '2.0.0'
+
+inhibit_all_warnings!
