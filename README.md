@@ -1,3 +1,6 @@
+
+Sherlocked by this [template](https://github.com/krzysztofzablocki/KZBootstrap)
+
 Overview
 =========================
 Esta plantilla implementa los [pasos](http://www.punteroavoid.com/blog/2013/07/12/iniciando-un-nuevo-proyecto-ios/) descritos por [@sendoaportuondo](https://twitter.com/sendoaportuondo) a la hora de crear un nuevo proyecto para iOS, basándose en la [plantilla](https://github.com/reidmain/Xcode-5-Project-Templates) con algunos cambios:
